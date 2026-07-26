@@ -3,34 +3,235 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marco Méndez</title>
+  <meta name="description" content="Sitio académico de Marco Méndez Atienza, economista, profesor e investigador.">
+  <title>Marco Méndez Atienza | Economía y política pública</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <h1>Marco Méndez</h1>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">MMA</a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#perfil">Perfil</a>
+        <a href="#investigacion">Investigación</a>
+        <a href="#docencia">Docencia</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="nav-cv" href="assets/CV.pdf" target="_blank" rel="noopener">CV</a>
+    </div>
+  </header>
 
-  <p>
-    Director de Programa de Economía en el Tecnológico de Monterrey.
-  </p>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Economía · Política pública · Ciencia de datos</p>
+          <h1>Marco Méndez Atienza</h1>
+          <p class="hero-role">Director del Programa de Economía en el Tecnológico de Monterrey, Campus Ciudad de México.</p>
+          <p class="hero-summary">
+            Economista, profesor e investigador interesado en economía urbana, seguridad, evaluación de políticas públicas y métodos cuantitativos.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="assets/CV.pdf" target="_blank" rel="noopener">Descargar CV</a>
+            <a class="button secondary" href="#investigacion">Ver investigación</a>
+          </div>
+          <div class="hero-meta">
+            <a href="mailto:marco.mendez@tec.mx">marco.mendez@tec.mx</a>
+            <span>Ciudad de México</span>
+          </div>
+        </div>
 
-  <h2>Sobre mí</h2>
+        <div class="portrait-wrap">
+          <div class="portrait-card">
+            <img src="assets/foto.png" alt="Retrato profesional de Marco Méndez Atienza">
+          </div>
+          <div class="portrait-accent" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
 
-  <p>
-    Soy economista y profesor. Mis áreas de interés incluyen...
-  </p>
+    <section class="section" id="perfil">
+      <div class="container two-col">
+        <div>
+          <p class="section-label">Perfil</p>
+          <h2>Trabajo académico con enfoque aplicado</h2>
+        </div>
+        <div class="prose">
+          <p>
+            Dirijo el programa de licenciatura en Economía y coordino la concentración en Economía Aplicada y Ciencia de Datos. Mi trabajo combina docencia, gestión académica, investigación y consultoría económica.
+          </p>
+          <p>
+            Actualmente curso el Doctorado en Política Pública. Tengo una Maestría en Economía por El Colegio de México y una Licenciatura en Economía por el Tecnológico de Monterrey.
+          </p>
+        </div>
+      </div>
 
-  <h2>Investigación y docencia</h2>
+      <div class="container interest-grid">
+        <article class="interest-card">
+          <span>01</span>
+          <h3>Economía urbana</h3>
+          <p>Crimen, movilidad, espacio público y desigualdad territorial.</p>
+        </article>
+        <article class="interest-card">
+          <span>02</span>
+          <h3>Evaluación de políticas</h3>
+          <p>Diseños causales y medición de impactos en programas públicos.</p>
+        </article>
+        <article class="interest-card">
+          <span>03</span>
+          <h3>Ciencia de datos</h3>
+          <p>Econometría, análisis espacial, programación y visualización.</p>
+        </article>
+      </div>
+    </section>
 
-  <ul>
-    <li>Publicaciones</li>
-    <li>Cursos</li>
-    <li>Materiales docentes</li>
-  </ul>
+    <section class="section alt" id="investigacion">
+      <div class="container section-heading">
+        <div>
+          <p class="section-label">Investigación</p>
+          <h2>Publicaciones y proyectos en curso</h2>
+        </div>
+        <p>Una selección de trabajo publicado y documentos de investigación.</p>
+      </div>
 
-  <h2>Contacto</h2>
+      <div class="container research-list">
+        <article class="research-item featured">
+          <div class="research-year">2026</div>
+          <div>
+            <span class="tag">Artículo publicado</span>
+            <h3>Urban dystopias: Crime around the Utopías in Mexico City</h3>
+            <p>Global Crime, 1-19.</p>
+            <a href="https://doi.org/10.1080/17440572.2026.2698532" target="_blank" rel="noopener">Ver publicación ↗</a>
+          </div>
+        </article>
 
-  <p>
-    <a href="https://www.linkedin.com/">LinkedIn</a>
-  </p>
+        <article class="research-item">
+          <div class="research-year">WP</div>
+          <div>
+            <span class="tag">Documento de trabajo</span>
+            <h3>Yes to Disarmament, Yes to Peace</h3>
+            <p>Measuring the Impact of Mexico City's Gun Buyback Initiative. Con A. Ramírez Álvarez.</p>
+          </div>
+        </article>
+
+        <article class="research-item">
+          <div class="research-year">WP</div>
+          <div>
+            <span class="tag">Documento de trabajo</span>
+            <h3>Economic Complexity and the Effectiveness of World Bank Projects</h3>
+            <p>Evidence from a Shift-Share Instrumental Variable. Con D. Arciga-Portela, M. Echániz-Arciga y A. Garritz-Ayala.</p>
+          </div>
+        </article>
+
+        <article class="research-item">
+          <div class="research-year">WP</div>
+          <div>
+            <span class="tag">Documento de trabajo</span>
+            <h3>Reported Public Disorder Around the Mexico City Metro</h3>
+            <p>Exposure Denominators, Spatial Hotspots, and Station-Area Vulnerability.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="docencia">
+      <div class="container two-col">
+        <div>
+          <p class="section-label">Docencia</p>
+          <h2>Cursos cuantitativos y formación económica</h2>
+        </div>
+        <div class="course-groups">
+          <div>
+            <h3>Econometría y análisis de datos</h3>
+            <ul>
+              <li>Fundamentos de econometría</li>
+              <li>Econometría</li>
+              <li>Series de tiempo</li>
+              <li>Análisis multivariado</li>
+              <li>Inferencia causal</li>
+              <li>Análisis espacial</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Otros cursos</h3>
+            <ul>
+              <li>Metodología de la investigación</li>
+              <li>Teoría del consumidor</li>
+              <li>Cálculo diferencial</li>
+              <li>Álgebra lineal</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="experiencia">
+      <div class="container section-heading">
+        <div>
+          <p class="section-label">Experiencia</p>
+          <h2>Trayectoria profesional</h2>
+        </div>
+      </div>
+
+      <div class="container timeline">
+        <article>
+          <div class="timeline-date">2023-presente</div>
+          <div>
+            <h3>Director del Programa de Economía</h3>
+            <p class="institution">Tecnológico de Monterrey, Campus Ciudad de México</p>
+            <p>Dirección curricular, coordinación académica y desarrollo de iniciativas de investigación estudiantil.</p>
+          </div>
+        </article>
+        <article>
+          <div class="timeline-date">2023-presente</div>
+          <div>
+            <h3>Consultor económico</h3>
+            <p class="institution">Consultoría independiente</p>
+            <p>Estudios de demanda, desarrollo regional, movilidad, infraestructura y análisis de mercados.</p>
+          </div>
+        </article>
+        <article>
+          <div class="timeline-date">2022</div>
+          <div>
+            <h3>Consultor junior</h3>
+            <p class="institution">Consultores Internacionales, S.C.</p>
+            <p>Análisis económicos, sectoriales y estratégicos para clientes públicos y privados.</p>
+          </div>
+        </article>
+        <article>
+          <div class="timeline-date">2017-2020</div>
+          <div>
+            <h3>Asesor</h3>
+            <p class="institution">Conferencia Nacional de Gobernadores</p>
+            <p>Coordinación técnica, análisis estadístico y preparación de documentos de política pública.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-label light">Contacto</p>
+          <h2>Investigación, docencia y colaboración académica</h2>
+        </div>
+        <div class="contact-actions">
+          <a href="mailto:marco.mendez@tec.mx">marco.mendez@tec.mx</a>
+          <a href="assets/CV.pdf" target="_blank" rel="noopener">Currículum vitae ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© 2026 Marco Méndez Atienza</span>
+      <span>Publicado con GitHub Pages</span>
+    </div>
+  </footer>
 </body>
 </html>
