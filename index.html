@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sitio académico de Marco Méndez Atienza, economista, profesor e investigador.">
-  <title>Marco Méndez Atienza | Economía y política pública</title>
+  <meta name="description" content="Academic website of Marco Méndez Atienza, economist and faculty member at Tecnológico de Monterrey.">
+  <title>Marco Méndez Atienza | Economics</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
@@ -13,59 +13,81 @@
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="#inicio" aria-label="Ir al inicio">MMA</a>
-      <nav class="main-nav" aria-label="Navegación principal">
-        <a href="#perfil">Perfil</a>
-        <a href="#investigacion">Investigación</a>
-        <a href="#docencia">Docencia</a>
-        <a href="#experiencia">Experiencia</a>
-        <a href="#contacto">Contacto</a>
+      <a class="brand" href="#home" aria-label="Go to homepage">MMA</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
       </nav>
       <a class="nav-cv" href="assets/CV.pdf" target="_blank" rel="noopener">CV</a>
     </div>
   </header>
 
   <main>
-    <section class="hero" id="inicio">
+    <section class="hero" id="home">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Economía · Política pública · Ciencia de datos</p>
+          <p class="eyebrow">Economics · Public policy · Data analysis</p>
           <h1>Marco Méndez Atienza</h1>
-          <p class="hero-role">Director del Programa de Economía en el Tecnológico de Monterrey, Campus Ciudad de México.</p>
+          <p class="hero-role">Director of the B.A. Program in Economics at Tecnológico de Monterrey, Mexico City Campus.</p>
           <p class="hero-summary">
-            Economista, profesor e investigador interesado en economía urbana, seguridad, evaluación de políticas públicas y métodos cuantitativos.
+            Economist and lecturer working on urban economics, public safety, policy evaluation, and quantitative methods.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="assets/CV.pdf" target="_blank" rel="noopener">Descargar CV</a>
-            <a class="button secondary" href="#investigacion">Ver investigación</a>
+            <a class="button primary" href="assets/CV.pdf" target="_blank" rel="noopener">View CV</a>
+            <a class="button secondary" href="#research">Research</a>
           </div>
           <div class="hero-meta">
-            <a href="mailto:marco.mendez@tec.mx">marco.mendez@tec.mx</a>
-            <span>Ciudad de México</span>
+            <span>Mexico City</span>
+          </div>
+
+          <div class="social-links" aria-label="Professional profiles">
+            <a href="mailto:marco.mendez@tec.mx" aria-label="Send email" title="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 5.5h18v13H3z"></path>
+                <path d="m4 7 8 6 8-6"></path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/marcomna/" target="_blank" rel="noopener" aria-label="LinkedIn profile" title="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6.5 8.5v9"></path>
+                <path d="M6.5 5.5h.01"></path>
+                <path d="M10.5 17.5v-5.2c0-2.2 4-2.4 4 0v5.2"></path>
+                <path d="M10.5 8.5v9"></path>
+              </svg>
+            </a>
+            <a href="https://github.com/mmendezatienza" target="_blank" rel="noopener" aria-label="GitHub profile" title="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9 19c-4.5 1.4-4.5-2.4-6-3"></path>
+                <path d="M15 22v-3.9c0-1.1.4-2.1 1.1-2.8 3.6-.4 7.4-1.8 7.4-8A6.2 6.2 0 0 0 22 3.1 5.8 5.8 0 0 0 21.9-1S20.7.6 18 2.5a13.5 13.5 0 0 0-7 0C8.3.6 7.1 1 7.1 1A5.8 5.8 0 0 0 7 5.1 6.2 6.2 0 0 0 5.5 9c0 6.2 3.8 7.6 7.4 8 .7.7 1.1 1.7 1.1 2.8V22"></path>
+              </svg>
+            </a>
           </div>
         </div>
 
         <div class="portrait-wrap">
           <div class="portrait-card">
-            <img src="assets/foto.png" alt="Retrato profesional de Marco Méndez Atienza">
+            <img src="assets/foto.png" alt="Portrait of Marco Méndez Atienza">
           </div>
           <div class="portrait-accent" aria-hidden="true"></div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="perfil">
+    <section class="section" id="about">
       <div class="container two-col">
         <div>
-          <p class="section-label">Perfil</p>
-          <h2>Trabajo académico con enfoque aplicado</h2>
+          <p class="section-label">About</p>
+          <h2>Profile</h2>
         </div>
         <div class="prose">
           <p>
-            Dirijo el programa de licenciatura en Economía y coordino la concentración en Economía Aplicada y Ciencia de Datos. Mi trabajo combina docencia, gestión académica, investigación y consultoría económica.
+            I direct the undergraduate Economics program and coordinate the Applied Economics and Data Science concentration at Tecnológico de Monterrey. My work includes teaching, academic administration, research, and economic consulting.
           </p>
           <p>
-            Actualmente curso el Doctorado en Política Pública. Tengo una Maestría en Economía por El Colegio de México y una Licenciatura en Economía por el Tecnológico de Monterrey.
+            I am currently pursuing a Ph.D. in Public Policy. I hold an M.A. in Economics from El Colegio de México and a B.A. in Economics from Tecnológico de Monterrey.
           </p>
         </div>
       </div>
@@ -73,64 +95,64 @@
       <div class="container interest-grid">
         <article class="interest-card">
           <span>01</span>
-          <h3>Economía urbana</h3>
-          <p>Crimen, movilidad, espacio público y desigualdad territorial.</p>
+          <h3>Urban economics</h3>
+          <p>Crime, mobility, public space, and territorial inequality.</p>
         </article>
         <article class="interest-card">
           <span>02</span>
-          <h3>Evaluación de políticas</h3>
-          <p>Diseños causales y medición de impactos en programas públicos.</p>
+          <h3>Policy evaluation</h3>
+          <p>Causal inference and impact evaluation of public programs.</p>
         </article>
         <article class="interest-card">
           <span>03</span>
-          <h3>Ciencia de datos</h3>
-          <p>Econometría, análisis espacial, programación y visualización.</p>
+          <h3>Quantitative methods</h3>
+          <p>Econometrics, spatial analysis, programming, and data visualization.</p>
         </article>
       </div>
     </section>
 
-    <section class="section alt" id="investigacion">
+    <section class="section alt" id="research">
       <div class="container section-heading">
         <div>
-          <p class="section-label">Investigación</p>
-          <h2>Publicaciones y proyectos en curso</h2>
+          <p class="section-label">Research</p>
+          <h2>Publications and working papers</h2>
         </div>
-        <p>Una selección de trabajo publicado y documentos de investigación.</p>
+        <p>Selected published and ongoing work.</p>
       </div>
 
       <div class="container research-list">
         <article class="research-item featured">
           <div class="research-year">2026</div>
           <div>
-            <span class="tag">Artículo publicado</span>
+            <span class="tag">Published article</span>
             <h3>Urban dystopias: Crime around the Utopías in Mexico City</h3>
-            <p>Global Crime, 1-19.</p>
-            <a href="https://doi.org/10.1080/17440572.2026.2698532" target="_blank" rel="noopener">Ver publicación ↗</a>
+            <p><em>Global Crime</em>, 1–19.</p>
+            <a href="https://doi.org/10.1080/17440572.2026.2698532" target="_blank" rel="noopener">View article ↗</a>
           </div>
         </article>
 
         <article class="research-item">
           <div class="research-year">WP</div>
           <div>
-            <span class="tag">Documento de trabajo</span>
+            <span class="tag">Working paper</span>
             <h3>Yes to Disarmament, Yes to Peace</h3>
-            <p>Measuring the Impact of Mexico City's Gun Buyback Initiative. Con A. Ramírez Álvarez.</p>
+            <p>Measuring the Impact of Mexico City's Gun Buyback Initiative. With A. Ramírez Álvarez.</p>
           </div>
         </article>
 
         <article class="research-item">
           <div class="research-year">WP</div>
           <div>
-            <span class="tag">Documento de trabajo</span>
+            <span class="tag">Working paper</span>
             <h3>Economic Complexity and the Effectiveness of World Bank Projects</h3>
-            <p>Evidence from a Shift-Share Instrumental Variable. Con D. Arciga-Portela, M. Echániz-Arciga y A. Garritz-Ayala.</p>
+            <p>Evidence from a Shift-Share Instrumental Variable. With D. Arciga-Portela, M. Echániz-Arciga, and A. Garritz-Ayala.</p>
           </div>
         </article>
 
         <article class="research-item">
           <div class="research-year">WP</div>
           <div>
-            <span class="tag">Documento de trabajo</span>
+            <span class="tag">Working paper</span>
             <h3>Reported Public Disorder Around the Mexico City Metro</h3>
             <p>Exposure Denominators, Spatial Hotspots, and Station-Area Vulnerability.</p>
           </div>
@@ -138,90 +160,92 @@
       </div>
     </section>
 
-    <section class="section" id="docencia">
+    <section class="section" id="teaching">
       <div class="container two-col">
         <div>
-          <p class="section-label">Docencia</p>
-          <h2>Cursos cuantitativos y formación económica</h2>
+          <p class="section-label">Teaching</p>
+          <h2>Courses</h2>
         </div>
         <div class="course-groups">
           <div>
-            <h3>Econometría y análisis de datos</h3>
+            <h3>Econometrics and data analysis</h3>
             <ul>
-              <li>Fundamentos de econometría</li>
-              <li>Econometría</li>
-              <li>Series de tiempo</li>
-              <li>Análisis multivariado</li>
-              <li>Inferencia causal</li>
-              <li>Análisis espacial</li>
+              <li>Foundations of Econometrics</li>
+              <li>Econometrics</li>
+              <li>Time Series</li>
+              <li>Multivariate Analysis</li>
+              <li>Causal Inference</li>
+              <li>Spatial Analysis</li>
             </ul>
           </div>
           <div>
-            <h3>Otros cursos</h3>
+            <h3>Other courses</h3>
             <ul>
-              <li>Metodología de la investigación</li>
-              <li>Teoría del consumidor</li>
-              <li>Cálculo diferencial</li>
-              <li>Álgebra lineal</li>
+              <li>Research Methodology</li>
+              <li>Consumer Theory</li>
+              <li>Differential Calculus</li>
+              <li>Linear Algebra</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section alt" id="experiencia">
+    <section class="section alt" id="experience">
       <div class="container section-heading">
         <div>
-          <p class="section-label">Experiencia</p>
-          <h2>Trayectoria profesional</h2>
+          <p class="section-label">Experience</p>
+          <h2>Professional experience</h2>
         </div>
       </div>
 
       <div class="container timeline">
         <article>
-          <div class="timeline-date">2023-presente</div>
+          <div class="timeline-date">2023–present</div>
           <div>
-            <h3>Director del Programa de Economía</h3>
-            <p class="institution">Tecnológico de Monterrey, Campus Ciudad de México</p>
-            <p>Dirección curricular, coordinación académica y desarrollo de iniciativas de investigación estudiantil.</p>
+            <h3>Director of the B.A. Program in Economics</h3>
+            <p class="institution">Tecnológico de Monterrey, Mexico City Campus</p>
+            <p>Program administration, curriculum development, academic coordination, and student research initiatives.</p>
           </div>
         </article>
         <article>
-          <div class="timeline-date">2023-presente</div>
+          <div class="timeline-date">2023–present</div>
           <div>
-            <h3>Consultor económico</h3>
-            <p class="institution">Consultoría independiente</p>
-            <p>Estudios de demanda, desarrollo regional, movilidad, infraestructura y análisis de mercados.</p>
+            <h3>Economic Consultant</h3>
+            <p class="institution">Independent consulting</p>
+            <p>Demand studies, regional development, mobility, infrastructure, and market analysis.</p>
           </div>
         </article>
         <article>
           <div class="timeline-date">2022</div>
           <div>
-            <h3>Consultor junior</h3>
+            <h3>Junior Consultant</h3>
             <p class="institution">Consultores Internacionales, S.C.</p>
-            <p>Análisis económicos, sectoriales y estratégicos para clientes públicos y privados.</p>
+            <p>Economic, sectoral, and strategic analysis for public and private clients.</p>
           </div>
         </article>
         <article>
-          <div class="timeline-date">2017-2020</div>
+          <div class="timeline-date">2017–2020</div>
           <div>
-            <h3>Asesor</h3>
-            <p class="institution">Conferencia Nacional de Gobernadores</p>
-            <p>Coordinación técnica, análisis estadístico y preparación de documentos de política pública.</p>
+            <h3>Advisor</h3>
+            <p class="institution">National Conference of Governors</p>
+            <p>Technical coordination, statistical analysis, and preparation of policy documents.</p>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="contact" id="contacto">
+    <section class="contact" id="contact">
       <div class="container contact-grid">
         <div>
-          <p class="section-label light">Contacto</p>
-          <h2>Investigación, docencia y colaboración académica</h2>
+          <p class="section-label light">Contact</p>
+          <h2>Contact information</h2>
         </div>
         <div class="contact-actions">
           <a href="mailto:marco.mendez@tec.mx">marco.mendez@tec.mx</a>
-          <a href="assets/CV.pdf" target="_blank" rel="noopener">Currículum vitae ↗</a>
+          <a href="https://www.linkedin.com/in/marcomna/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/mmendezatienza" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="assets/CV.pdf" target="_blank" rel="noopener">Curriculum vitae ↗</a>
         </div>
       </div>
     </section>
@@ -230,7 +254,7 @@
   <footer class="site-footer">
     <div class="container">
       <span>© 2026 Marco Méndez Atienza</span>
-      <span>Publicado con GitHub Pages</span>
+      <span>Hosted on GitHub Pages</span>
     </div>
   </footer>
 </body>

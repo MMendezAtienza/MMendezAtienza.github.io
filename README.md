@@ -1,19 +1,19 @@
-# Sitio personal de Marco Méndez Atienza
+# Personal website of Marco Méndez Atienza
 
-## Archivos
+## Files
 
-- `index.html`: contenido del sitio
-- `style.css`: diseño y estilos
-- `assets/foto.png`: fotografía principal
-- `assets/CV.pdf`: currículum descargable
+- `index.html`: website content
+- `style.css`: layout and design
+- `assets/foto.png`: profile photograph
+- `assets/CV.pdf`: downloadable curriculum vitae
 
-## Publicación en GitHub Pages
+## Publishing with GitHub Pages
 
-1. Sube estos archivos a la raíz del repositorio `mmendezatienza.github.io`.
-2. Conserva exactamente la carpeta `assets`.
-3. Haz commit de los cambios.
-4. GitHub Pages actualizará el sitio normalmente en uno o dos minutos.
+1. Upload these files to the root of the `mmendezatienza.github.io` repository.
+2. Keep the `assets` folder and its contents unchanged.
+3. Commit the changes.
+4. GitHub Pages should update the website within a few minutes.
 
-## Personalización pendiente
+## Optional additions
 
-Puedes añadir después enlaces a LinkedIn, Google Scholar, ORCID o GitHub dentro de la sección de contacto.
+Links to LinkedIn, Google Scholar, ORCID, or GitHub can be added later in the contact section.

@@ -83,9 +83,9 @@ a { color: inherit; }
 }
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.08fr .92fr;
+  grid-template-columns: 1.25fr .75fr;
   align-items: center;
-  gap: 72px;
+  gap: 56px;
 }
 .eyebrow,
 .section-label {
@@ -102,9 +102,10 @@ h1, h2 {
   letter-spacing: -.025em;
 }
 h1 {
-  max-width: 760px;
+  max-width: none;
   margin: 0;
-  font-size: clamp(3.2rem, 7vw, 6rem);
+  font-size: clamp(2.8rem, 4.6vw, 4.8rem);
+  white-space: nowrap;
 }
 .hero-role {
   max-width: 680px;
@@ -149,7 +150,44 @@ h1 {
 .hero-meta a { text-decoration: none; }
 .hero-meta a:hover { color: var(--accent); }
 
-.portrait-wrap { position: relative; }
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+.social-links a {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: white;
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color .2s ease, color .2s ease, transform .2s ease;
+}
+.social-links a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+.social-links svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.portrait-wrap {
+  position: relative;
+  width: min(100%, 400px);
+  justify-self: end;
+}
 .portrait-card {
   position: relative;
   z-index: 2;
@@ -316,7 +354,11 @@ h2 {
   .two-col,
   .contact-grid { grid-template-columns: 1fr; }
   .hero-grid { gap: 46px; }
-  .portrait-wrap { max-width: 560px; }
+  h1 { white-space: normal; }
+  .portrait-wrap {
+    max-width: 430px;
+    justify-self: start;
+  }
   .interest-grid { grid-template-columns: 1fr; }
   .section-heading { align-items: start; flex-direction: column; gap: 20px; }
   .course-groups { grid-template-columns: 1fr; }
