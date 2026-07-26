@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
 <title id="title">MMA</title>
 <circle cx="256" cy="256" r="240" fill="#102f3a"/>
-<text x="256" y="263" text-anchor="middle"
+<text x="256" y="250" text-anchor="middle"
       font-family="Inter, Arial, sans-serif"
       font-size="150" font-weight="700"
       letter-spacing="8" fill="#ffffff">MMA</text>
