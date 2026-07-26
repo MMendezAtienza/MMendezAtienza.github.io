@@ -45,18 +45,24 @@ a { color: inherit; }
 .brand {
   width: 42px;
   height: 42px;
-  display: block;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
   border-radius: 50%;
+  background: var(--navy);
+  color: #ffffff;
   text-decoration: none;
   overflow: hidden;
-  flex: 0 0 auto;
 }
-.brand img {
-  width: 100%;
-  height: 100%;
+
+.brand span {
   display: block;
-  object-fit: contain;
-  transform: translateY(-2px);
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  transform: translateY(-0.5px);
 }
 .main-nav {
   display: flex;
