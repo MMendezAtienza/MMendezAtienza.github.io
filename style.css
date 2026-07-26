@@ -511,3 +511,164 @@ html[data-theme="dark"] .contact {
 html[data-theme="dark"] .site-footer {
   background: #071116;
 }
+
+/* Mobile layout refinements */
+@media (max-width: 620px) {
+  .site-header .nav-wrap {
+    min-height: 62px;
+    gap: 14px;
+  }
+
+  .brand {
+    width: 38px;
+    height: 38px;
+  }
+
+  .theme-toggle {
+    margin-left: auto;
+  }
+
+  .hero {
+    padding: 36px 0 58px;
+  }
+
+  .hero-grid {
+    grid-template-columns: minmax(92px, 30vw) minmax(0, 1fr);
+    gap: 10px 20px;
+    align-items: start;
+  }
+
+  .hero-copy {
+    display: contents;
+  }
+
+  .portrait-wrap {
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    width: 100%;
+    max-width: 128px;
+    justify-self: start;
+    align-self: start;
+    margin-top: 2px;
+  }
+
+  .portrait-card {
+    border-radius: 18px;
+    box-shadow: 0 14px 38px rgba(26, 52, 60, .15);
+  }
+
+  .portrait-card img {
+    aspect-ratio: 1 / 1.14;
+    object-position: center 30%;
+    transform: none;
+  }
+
+  .portrait-accent {
+    right: -8px;
+    bottom: -8px;
+    border-radius: 16px;
+  }
+
+  .eyebrow,
+  .hero-copy h1,
+  .hero-role {
+    grid-column: 2;
+    min-width: 0;
+  }
+
+  .eyebrow {
+    margin: 0 0 2px;
+    font-size: .65rem;
+    line-height: 1.45;
+    letter-spacing: .12em;
+  }
+
+  .hero-copy h1 {
+    margin: 0;
+    font-size: clamp(1.9rem, 9.5vw, 2.55rem);
+    line-height: 1.02;
+    overflow-wrap: anywhere;
+  }
+
+  .hero-role {
+    margin: 5px 0 0;
+    font-size: .9rem;
+    line-height: 1.45;
+  }
+
+  .hero-summary,
+  .hero-actions,
+  .hero-meta,
+  .social-links {
+    grid-column: 1 / -1;
+  }
+
+  .hero-summary {
+    margin: 18px 0 0;
+    font-size: .98rem;
+    line-height: 1.6;
+  }
+
+  .hero-actions {
+    margin-top: 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .button {
+    min-height: 46px;
+    padding: 0 14px;
+  }
+
+  .hero-meta {
+    margin-top: 20px;
+  }
+
+  .social-links {
+    margin-top: 12px;
+  }
+
+  .two-col {
+    gap: 28px;
+  }
+
+  .section-heading {
+    margin-bottom: 34px;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 10vw, 2.8rem);
+  }
+
+  .interest-grid {
+    margin-top: 38px;
+  }
+
+  .interest-card {
+    padding: 24px;
+  }
+
+  .interest-card h3 {
+    margin-top: 28px;
+  }
+
+  .contact {
+    padding: 70px 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-grid {
+    grid-template-columns: 88px minmax(0, 1fr);
+    gap: 8px 16px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(1.72rem, 9vw, 2.1rem);
+  }
+
+  .hero-role {
+    font-size: .84rem;
+  }
+}
