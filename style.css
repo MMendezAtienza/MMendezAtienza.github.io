@@ -218,6 +218,7 @@ h1 {
   aspect-ratio: 1 / 1.08;
   object-fit: cover;
   object-position: center 34%;
+  transform: translateY(-2px);
 }
 .portrait-accent {
   position: absolute;
